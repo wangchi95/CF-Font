@@ -1,10 +1,27 @@
 # CF-Font
 
 -------------
+<img width="1339" alt="teaser" src="https://user-images.githubusercontent.com/96471617/227506740-764b4e8f-75f1-47f0-b750-7a32f371281c.png">
 
 By Chi Wang, Min Zhou, Tiezheng Ge, Yuning Jiang, Hujun Bao, Weiwei Xu
 
 This repo is the official implementation of `CF-Font: Content Fusion for Few-shot Font Generation` accepted by CVPR 2023.
+
+## Video demos for Style Interpolation
+- A poem demo
+
+
+https://user-images.githubusercontent.com/96471617/227514150-b9ea651f-3859-489b-a24b-5623d806aca8.mp4
+
+
+
+- Comparison with DG-Font
+
+
+
+https://user-images.githubusercontent.com/96471617/227514198-73482a7e-5cf9-4362-b4e3-8ed5bd5e9052.mp4
+
+
 
 ## Notice
 
