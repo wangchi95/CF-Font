@@ -1,0 +1,15 @@
+pytorch (>=1.0)
+tqdm
+numpy
+opencv-python  
+scipy
+sklearn
+matplotlib  
+pillow  
+tensorboardX
+scikit-image
+scikit-learn
+pytorch-fid
+lpips
+pandas
+kornia

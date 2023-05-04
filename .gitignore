@@ -1,0 +1,6 @@
+data/
+output/
+./basis/
+
+__pychache__
+*pyc
