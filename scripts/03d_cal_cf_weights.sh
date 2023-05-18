@@ -29,7 +29,7 @@ do
     fi
     basis_data=data/imgs/BASIS_S80F50_FS16
 
-    CUDA_VISIBLE_DEVICES=1 python cal_cf_weights.py \
+    CUDA_VISIBLE_DEVICES=1 python cal_cf_weight.py \
     --img_size ${img_size} \
     --data_path ${data} \
     --basis_path ${basis_data} \

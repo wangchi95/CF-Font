@@ -7,7 +7,7 @@ do
     img_size=80
     base_n=10
 
-    py_file="inf_with_style_ft_mul_cf.py" # inf
+    py_file="inf_with_style_ft_cf.py" # inf
     topk=-1 # -1:use all 1:one-hot 2:top2
     ftep=10 # 0
     wdl_ft=0.01
