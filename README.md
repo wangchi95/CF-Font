@@ -3,9 +3,9 @@
 -------------
 <img width="1339" alt="teaser" src="https://user-images.githubusercontent.com/96471617/227506740-764b4e8f-75f1-47f0-b750-7a32f371281c.png">
 
-By Chi Wang, Min Zhou, Tiezheng Ge, Yuning Jiang, Hujun Bao, Weiwei Xu
+By Chi Wang, Min Zhou, Tiezheng Ge, Yuning Jiang, Hujun Bao, Weiwei Xu*
 
-This repo is the official implementation of `CF-Font: Content Fusion for Few-shot Font Generation` accepted by CVPR 2023.
+This repo is the official implementation of `CF-Font: Content Fusion for Few-shot Font Generation` (CVF:[Paper link](https://openaccess.thecvf.com/content/CVPR2023/html/Wang_CF-Font_Content_Fusion_for_Few-Shot_Font_Generation_CVPR_2023_paper.html); arXiv:[2303.14017](https://arxiv.org/abs/2303.14017)) accepted by [CVPR 2023](https://cvpr2023.thecvf.com/).
 
 ## Video demos for Style Interpolation
 - A poem demo
@@ -63,10 +63,10 @@ Dataset
         ├── data
         │   └── fonts
         │       ├── Font_Seen240
-        │       |   ├── 000_xxxx.ttf
-        │       |   ├── 001_xxxx.ttf
-        │       |   ├── ...
-        │       |   └── 239_xxxx.ttf
+        │       │   ├── 000_xxxx.ttf
+        │       │   ├── 001_xxxx.ttf
+        │       │   ├── ...
+        │       │   └── 239_xxxx.ttf
         │       └── Font_Unseen60
         ├── charset
         │   ├── check_overlap.py
@@ -87,14 +87,14 @@ Dataset
         │   ├── fonts
         │   └── imgs
         │       ├── Seen240_S80F50_FULL
-        │       |   ├── id_0
+        │       │   ├── id_0
         │       │   │   ├── 0000.png
         │       │   │   ├── 0001.png
         │       │   │   ├── ...
         │       │   │   └── 6762.png
-        │       |   ├── id_1
-        │       |   ├── ...
-        │       |   └── id_239
+        │       │   ├── id_1
+        │       │   ├── ...
+        │       │   └── id_239
         │       └── Unseen60_S80F50_FULL
         ├── charset
         └── ...
@@ -110,33 +110,33 @@ Dataset
         │   ├── fonts
         │   └── imgs
         │       ├── Seen240_S80F50_FS16
-        │       |   ├── id_0
+        │       │   ├── id_0
         │       │   │   ├── 0000.png
         │       │   │   ├── 0001.png
         │       │   │   ├── ...
         │       │   │   └── 0015.png
-        │       |   ├── id_1
-        │       |   ├── ...
-        │       |   └── id_239
+        │       │   ├── id_1
+        │       │   ├── ...
+        │       │   └── id_239
         │       ├── Seen240_S80F50_FULL
         │       ├── Seen240_S80F50_TEST5646
-        │       |   ├── id_0
+        │       │   ├── id_0
         │       │   │   ├── 0000.png
         │       │   │   ├── 0001.png
         │       │   │   ├── ...
         │       │   │   └── 5645.png
-        │       |   ├── id_1
-        │       |   ├── ...
-        │       |   └── id_239
+        │       │   ├── id_1
+        │       │   ├── ...
+        │       │   └── id_239
         │       ├── Seen240_S80F50_TRAIN800
-        │       |   ├── id_0
+        │       │   ├── id_0
         │       │   │   ├── 0000.png
         │       │   │   ├── 0001.png
         │       │   │   ├── ...
         │       │   │   └── 0799.png
-        │       |   ├── id_1
-        │       |   ├── ...
-        │       |   └── id_239
+        │       │   ├── id_1
+        │       │   ├── ...
+        │       │   └── id_239
         │       ├── Unseen60_S80F50_FS16
         │       ├── Unseen60_S80F50_FULL
         │       ├── Unseen60_S80F50_TEST5646
@@ -195,12 +195,14 @@ Dataset
 
 ## Citation
 
-```
-@inproceedings{CF-Font,
-    title={CF-Font: Content Fusion for Few-shot Font Generation},
-    author={Chi Wang, Min Zhou, Tiezheng Ge, Yuning Jiang, Hujun Bao, Weiwei Xu},
-    booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition},
-    year={2023}
+``` bibtex
+@InProceedings{Wang_2023_CVPR,
+    author    = {Wang, Chi and Zhou, Min and Ge, Tiezheng and Jiang, Yuning and Bao, Hujun and Xu, Weiwei},
+    title     = {CF-Font: Content Fusion for Few-Shot Font Generation},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
+    year      = {2023},
+    pages     = {1858-1867}
 }
 ```
 
