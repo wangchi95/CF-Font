@@ -70,10 +70,10 @@ Dataset
         │       └── Font_Unseen60
         ├── charset
         │   ├── check_overlap.py
-        │   ├── GB2312_CN6763.txt # all characterx used in TRAIN and TEST
+        │   ├── GB2312_CN6763.txt # all characters used in TRAIN and TEST
         │   ├── FS16.txt          # Few-Shot characters, should not be included in TESTxxx.txt for fairness (can be included in TRAINxxx.txt) 
-        │   ├── TEST5646.txt      # all character used in TRAIN
-        │   └── TRAIN800.txt      # all character used in TEST
+        │   ├── TEST5646.txt      # all characters used in TEST
+        │   └── TRAIN800.txt      # all characters used in TRAIN
         └── ...
         ```
     - Generate dataset with the full standard Chinese character set (6763 in total) of GB/T 2312 : 
